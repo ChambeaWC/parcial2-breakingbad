@@ -5,9 +5,63 @@ html, body{
     padding: 0;
 }
 
+
 header {
     background-color: #333;
     color: white;
     padding: 10px 0;
-    text-align: center;
+    text-align: left;
+    z-index: 1000; /* no se toca */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_Page {
+    font-size: 52px;
+    display: inline-block;
+    margin-left: 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 32px;
+    margin: 0px 48px;
+}
+
+.nav_a:hover {
+    color: #34f334a9;
+    text-decoration: underline;
+
+}
+
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    padding: 24px;
+    justify-content: center;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 48px;
+    justify-content: center;
+    border-left: solid 2px whitesmoke;
+}
+
+#facebook {
+    border-right: solid 2px whitesmoke;
 }

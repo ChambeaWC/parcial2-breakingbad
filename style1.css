@@ -1,0 +1,11 @@
+.video {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#headerVid {
+    background-color: #33333377;
+    position: fixed;
+}
