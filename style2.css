@@ -1,0 +1,78 @@
+html, body {
+    color: rgb(236, 255, 238);
+}
+
+img {
+    border-radius: 56px;
+    margin: 0px 24px;
+}
+
+.h2_personajes {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.figures-izq {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #333;
+    padding: 24px 12px;
+    border-radius: 56px;
+    margin: 24px 15rem;
+}
+
+.fig_izq {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 56px;
+    margin: 0px 4px;
+}
+
+.info_izq {
+    width: 30%;
+    font-size: 32px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #19351d;
+    padding: 8px 40px;
+    border-radius: 50px;
+}
+
+.figures-der {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #333;
+    padding: 24px 12px;
+    border-radius: 56px;
+    margin: 24px 15rem;
+}
+
+.fig_der {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 56px;
+}
+
+.info_der {
+    width: 30%;
+    font-size: 32px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #19351d;
+    padding: 8px 40px;
+    border-radius: 50px;
+}
+
+.titulo_pers {
+    margin: 16px 0px;
+}
