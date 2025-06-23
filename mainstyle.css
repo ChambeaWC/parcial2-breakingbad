@@ -11,7 +11,7 @@ header {
     color: white;
     padding: 10px 0;
     text-align: left;
-    z-index: 1000; /* no se toca */
+    z-index: 1000;
     width: 100%;
     display: flex;
     justify-content: space-between;

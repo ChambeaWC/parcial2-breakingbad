@@ -1,0 +1,22 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+    z-index: 1000; /* no se toca */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+img {
+    margin: 0 0 -5px 0;
+    padding: 0;
+    height: 1071px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
