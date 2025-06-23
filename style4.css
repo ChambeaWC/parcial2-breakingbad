@@ -1,0 +1,48 @@
+section {
+
+}
+
+.extras {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 64px;
+    margin: 32px 0 24px 0;
+}
+
+ul {
+    background-color: #19351d;
+    padding: 12px 0;
+    list-style: none;
+}
+
+.curiosidades {
+    display: flex;
+    padding: 8px 0px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 12rem;
+}
+.p_curiosidades {
+    color: whitesmoke;
+    font-size: 24px;
+}
+.imagenes_c {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.imgind_c {
+    background-color: #19351d;
+    padding: 12px;
+}
+.criticas {
+}
+.p_criticas {
+}
+.premios_img {
+}
+.img_pr {
+}
