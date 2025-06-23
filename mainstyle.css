@@ -39,7 +39,6 @@ nav {
 .nav_a:hover {
     color: #34f334a9;
     text-decoration: underline;
-
 }
 
 footer {
@@ -52,6 +51,7 @@ footer {
     align-items: center;
 }
 
+
 .link {
     text-decoration: none;
     color: whitesmoke;
@@ -60,6 +60,11 @@ footer {
     padding: 0px 48px;
     justify-content: center;
     border-left: solid 2px whitesmoke;
+}
+
+.link:hover {
+    color: #34f334a9;
+    text-decoration: underline;
 }
 
 #facebook {
