@@ -1,0 +1,36 @@
+body {
+    background-image: url(Imagenes/fondo_conf.jpg);
+    background-repeat: no-repeat;
+}
+
+section {
+    display: flex;
+}
+
+.art_c {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 120px 0;
+    margin: 0;
+    margin: 100px auto;
+    background-color: #0b140080;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+.t_conf {
+    font-size: 64px;
+}
+.p_conf {
+    font-size: 32px;
+}
+
+a {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: chartreuse;
+}
+

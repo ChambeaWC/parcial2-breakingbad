@@ -1,0 +1,79 @@
+.sec_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+.t_p_cont {
+    color: whitesmoke;
+}
+.cont_titulo {
+    font-size: 48px;
+}
+.p_f{
+    font-size: 24px;
+    text-align: center;
+}
+.formulario {
+    color: whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #19351d;
+    padding: 50px 300px 50px 100px;
+    border-radius: 8px;
+    box-shadow: 7px 8px 37px #000;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: 50px;
+    font-size: 48px;
+}
+
+.nombre {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.apellido {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.correo {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.Mensaje {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+#no_i{
+    color: whitesmoke;
+}
+#ap_i{
+    color: whitesmoke;
+}
+#co_i{
+    color: whitesmoke;
+}
+#me_i{
+    color: whitesmoke;
+}
+
+.controls {
+    width: 120%;
+    margin-bottom: 12px;
+    padding: 12px;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: #18471f;
+}
+.boton {
+    margin-top: 32px;
+    font-size: 32px;
+    padding: 12px;
+    background-color: #18471f;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+.boton:hover {
+    background-color: #256d2f;
+}

@@ -21,6 +21,11 @@ header {
     font-size: 52px;
     display: inline-block;
     margin-left: 70px;
+    color: #34f334a9;
+}
+
+.title_Page:hover {
+    text-decoration: underline;
 }
 
 nav {
