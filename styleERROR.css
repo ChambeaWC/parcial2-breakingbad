@@ -13,7 +13,8 @@ header {
 body {
     background-image: url(icon/error.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 
 .contenedor_error {

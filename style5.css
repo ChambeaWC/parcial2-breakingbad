@@ -46,16 +46,27 @@ h3 {
     margin-bottom: 12px;
 }
 #no_i{
-    color: whitesmoke;
+    color: rgb(128, 255, 124);
 }
 #ap_i{
-    color: whitesmoke;
+    color: rgb(128, 255, 124);
 }
 #co_i{
-    color: whitesmoke;
+    color: rgb(128, 255, 124);
 }
 #me_i{
-    color: whitesmoke;
+    color: rgb(128, 255, 124);
+    resize: none;
+    font-family: "Roboto", sans-serif;
+    height: 200px;
+}
+
+textarea::placeholder {
+    color: rgb(128, 255, 124);
+}
+
+input::placeholder {
+    color: rgb(128, 255, 124);
 }
 
 .controls {
@@ -64,7 +75,7 @@ h3 {
     padding: 12px;
     font-size: 24px;
     border-radius: 8px;
-    background-color: #18471f;
+    background-color: #002b06;
 }
 .boton {
     margin-top: 32px;
