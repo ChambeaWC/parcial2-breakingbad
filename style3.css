@@ -57,5 +57,30 @@ ul {
 }
 
 @media(360px <= width <= 470px) {
-    
+    .temporadas{
+        font-size: 26px;
+    }
+
+    .temp_desc{
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .titulo_temp{
+        font-size: 26px;
+    }
+
+    .p_temp{
+        font-size: 17px;
+    }
+
+    #d{
+    display: none;
+}
+
+    .imagen_temp1{
+        width: 90%;
+        height: 100%;
+        margin-bottom: 1rem;
+}
 }
