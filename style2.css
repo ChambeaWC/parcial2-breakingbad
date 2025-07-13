@@ -87,8 +87,13 @@ img {
     }
 
     img{
+        margin: auto;
         width: 90%;
         height: 100%;
+    }
+
+    .img_der{
+        width: 120%;
     }
 
     .titulo_pers{
@@ -99,11 +104,18 @@ img {
         font-size: 14px;
     }
 
-    .figures-izq, .figures-der{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .figures-izq{
+        margin: 24px auto;
         width: 80%;
+    }
+
+    .figures-der{
+        margin: 24px auto;
+        width: 80%;
+    }
+
+    .titulo_pers{
+        margin: 3px 0;
     }
 
     .fig_izq{
@@ -117,14 +129,14 @@ img {
     }
 
     .info_izq{
-        margin: 8px 0;
+        margin: 8px auto;
         width: 70%;
         font-size: 16px;
     }
 
     .info_der{
-        font-size: 16px;
-        margin: 8px 0;
+        margin: 8px auto;
         width: 80%;
+        font-size: 16px;
     }
 }
