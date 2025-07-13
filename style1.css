@@ -51,6 +51,13 @@
     border-radius: 36px;
 }
 
+.img_2 {
+    padding: 12px;
+    background-color: #19351d;
+    margin: 0px 12px;
+    border-radius: 36px;
+}
+
 .gen_img {
     display: flex;
     justify-content: center
@@ -112,4 +119,15 @@
     margin-left: 12px;
     justify-content: center;
     align-items: center;
+}
+
+@media(360px <= width <= 470px) {
+    .imgintro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img_2{
+        display: none;
+    }
 }
