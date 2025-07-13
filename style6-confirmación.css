@@ -34,3 +34,6 @@ a:hover {
     color: chartreuse;
 }
 
+@media(360px <= width <= 470px) {
+    
+}

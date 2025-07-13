@@ -77,12 +77,46 @@ footer {
 }
 
 @media(360px <= width <= 470px) {
+
     header{
-        width: 100%;
-    }
-    nav{
         width: 100%;
         display: flex;
         flex-direction: column;
+    }
+
+    .title_Page{
+        font-size: 42px;
+        margin: 0;
+        margin-bottom: 6px;
+    }
+
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav_a{
+        text-align: center;
+        font-size: 16px;
+        padding: 0 14px;
+        margin: 0;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        padding: 16px;
+    }
+
+    .link{
+        font-size: 16px;
+        padding: 3px 14px;
+        border-right: none;
+        border-left: none;
+    }
+
+    #facebook{
+        border-right: none;
     }
 }

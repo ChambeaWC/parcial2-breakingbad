@@ -122,12 +122,77 @@
 }
 
 @media(360px <= width <= 470px) {
+    
+    #headerVid{
+        background-color: #333333e8;
+    }
+
+    .video{
+        margin-top: 96px;
+    }
+
+    .introp{
+        font-size: 32px;
+    }
+
+    .intro{
+        width: 80%;
+    }
+    
+    .p_intro{
+        font-size: 14px;
+    }
+
+    .genero{
+        width: 70%;
+    }
+
+    .gen_titulo{
+        margin: 4px 0;
+    }
+
+    .p_gen{
+        margin-top: 2px;
+        font-size: 14px;
+    }
+
     .imgintro{
         display: flex;
         flex-direction: column;
     }
 
     .img_2{
+        display: none;
+    }
+
+    .img_gen{
+        display: none;
+    }
+
+    .concepcion{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+    
+    .h2_concepcion{
+        font-size: 32px;
+        margin: 3px 0;
+    }
+
+    .div_concepcion{
+        display: flex;
+        width: 100%;
+        font-size: 14px;
+        justify-content: first baseline;
+        align-items: none;
+    }
+    
+    .p_concepcion{
+        width: 100%;
+    }
+
+    .p_concepcion2{
         display: none;
     }
 }

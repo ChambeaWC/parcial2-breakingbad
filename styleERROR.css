@@ -39,3 +39,7 @@ p {
 footer {
     margin-top: 400px;
 }
+
+@media(360px <= width <= 470px) {
+    
+}
