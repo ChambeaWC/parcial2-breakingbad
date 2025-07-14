@@ -77,7 +77,6 @@ footer {
 }
 
 @media(360px <= width <= 470px) {
-
     header{
         width: 100%;
         display: flex;

@@ -1,4 +1,14 @@
-
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+    z-index: 1000; /* no se toca */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
 
 body {
     background-image: url(icon/error.jpg);
@@ -27,9 +37,15 @@ p {
 }
 
 footer {
-    margin-top: 400px;
+    margin-top: 9%;
 }
 
 @media(360px <= width <= 470px) {
-    
+    .contenedor_error{
+        width: 90%;
+    }
+    article{
+        display: flex;
+        justify-content: center;
+    }
 }
