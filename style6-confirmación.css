@@ -35,5 +35,13 @@ a:hover {
 }
 
 @media(360px <= width <= 470px) {
-    
+    .t_conf{
+        font-size: 32px;
+        margin: 7% 0;
+    }
+
+    .p_conf{
+        font-size: 18px;
+        margin: 6px 6%;
+    }
 }

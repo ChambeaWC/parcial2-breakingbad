@@ -18,7 +18,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: #19351d;
-    padding: 50px 300px 50px 100px;
+    padding: 5% 20% 5% 5%;
     border-radius: 8px;
     box-shadow: 7px 8px 37px #000;
 }
@@ -90,5 +90,74 @@ input::placeholder {
 }
 
 @media(360px <= width <= 470px) {
-    
+    .cont_titulo{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .p_f{
+        font-size: 16px;
+    }
+
+    .formulario{
+        width: 60%;
+    }
+
+    h3{
+        font-size: 32px;
+        padding: 0 0 14px;
+    }
+
+    label{
+        font-size: 18px;
+    }
+
+    .controls{
+        margin: 0;
+        width: 105%;
+    }
+
+    .nombre{
+        margin: 0;
+    }
+
+    .apellido{
+        margin: 0;
+    }
+
+    .correo{
+        margin: 0;
+    }
+
+    .Mensaje{
+        margin: 0;
+    }
+
+    #no_i{
+    color: rgb(128, 255, 124);
+    font-size: 16px;
+}
+
+    #ap_i{
+        color: rgb(128, 255, 124);
+        font-size: 16px;
+    }
+
+    #co_i{
+        color: rgb(128, 255, 124);
+        font-size: 16px;
+    }
+
+    #me_i{
+        color: rgb(128, 255, 124);
+        font-size: 16px;
+}
+
+    .boton{
+        font-size: 16px;
+        width: 50%;
+        height: 100%;
+        margin: 0;
+
+    }
 }
